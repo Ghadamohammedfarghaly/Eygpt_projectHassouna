@@ -1,0 +1,113 @@
+                                 
+                                    <!--بسم الله الرحمن الرحيم والصلاه والسلام على اشرف المرسلين سيدنا محمد عليه وعلى وصحبه اجمعين-->
+<html>
+
+<head>
+    <title>Eygpt</title>
+    <style>
+        #div0{
+            
+            background-color:black;
+            width:400;
+            height:150;
+            position:absolute;
+            top:200px;
+            left:450px;
+            border:1px solid black;
+        }
+        #div1{
+            background-color:red;
+            width:400;
+            height:50; 
+            
+        }
+        
+        #div2{
+            background-color:white;
+            width:400;
+            height:50;
+        }
+        #div3{
+            
+            background-color:black;
+            width:400;
+            height:50;
+        }
+        #img1{
+            
+          height:50px;
+          width:60px;
+          position:absolute;
+          left:190px;
+        }
+        
+        body{
+            
+         background-color:deepskyblue;   
+        }
+        
+        #h1{
+            
+         text-align:center;
+         font-style:italic;
+            
+        
+        }
+         </style>
+    </head>
+
+<body id="body1" onmouseover="body();">
+    
+    <h1 id="h1" onmouseover="header1();" onmouseleave="this.style.opacity=1;">
+      The mother of the world
+    </h1>
+    
+    <div id="div0" onmouseenter="big();" onmouseleave="small();">
+    <div id="div1"></div>
+    <div id="div2"> <img src="%D9%86%D8%B3%D8%B1.png" id="img1"/></div>
+    <div id="div3"></div>
+    </div>
+    
+    <script>
+        
+      function big(){
+          document.getElementById("div0").style.width="800px";
+          window.div0.style.height=300; 
+          window.div0.style.left="200px";
+          window.div0.style.border=" 1px solid black";
+          
+          window.div1.style.height=100;
+          window.div1.style.width=800;
+          
+          window.div2.style.height=100;
+          window.div2.style.width=800;
+          
+          window.div3.style.height=100;
+          window.div3.style.width=800;
+          
+          window.img1.style.left="350px";
+          window.img1.style.height=80;
+          window.img1.style.width=80;
+          
+      }
+        
+      function small(){
+          
+         window.div0.style.width="300px";
+         window.div0.style.height=150;
+         window.div0.style.left="400px";
+         window.div0.style.border=" none";
+      }
+        
+     function header1(){
+     window.h1.style.color="navy";
+     window.h1.style.opacity=0.3;
+     }
+       /*
+     function body(){
+         
+      window.body1.style.backgroundColor="yellow";}*/ //question
+    </script>
+    </body>
+
+</html>
